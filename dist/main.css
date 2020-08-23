@@ -1,0 +1,99 @@
+/*------------------------------------Commmon------------------------------------------------*/
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.mw {
+    min-width: 1500px;
+}
+/*------------------------------------HEADER------------------------------------------------*/
+.header{
+    background: url(a94592eb26b9141f85344067fa4ce346.png) no-repeat  , url(d756d67423d19a0392c322b9e5bd51a5.png);
+    background-size: 830px 130px  , cover ;
+    padding-bottom: 5px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.logo-text .logo-title {
+    font-size: 28px;
+    margin: 0;
+
+}
+.logo-text .logo-subtitle {
+    font-size: 16px;
+}
+.header__logo {
+
+    margin: 44px 0 21px 0;
+}
+.logo-text {
+    color:#fff;
+    position: relative;
+    margin: 0 0 0 30px;
+}
+.header__logo .logo-img {
+    top: 19px;
+    position: absolute;
+}
+.header__contacts {
+    align-self: flex-end;
+    margin-bottom: 21px;
+}
+.header__contacts .contacts {
+    font-size: 24px;
+    color: #fff;
+}
+/*------------------------------------NAVBAR------------------------------------------------*/
+.nav-bar {
+    background-color: #e9e9e9;
+}
+.nav-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar .menu {
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
+}
+.nav-bar .menu .menu__item:not(:last-child) {
+    margin-right: 20px;
+}
+.nav-bar .menu .menu__item {
+    padding: 0 12px 0 15px;
+}
+.nav-bar .menu .menu__item .menu__link {
+    color: #3a5362;
+    text-decoration: none;
+}
+.nav-bar .menu .menu__item .menu__link:after {
+    content: initial;
+    padding: 12px 15px 30px 15px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    background-color: #437798;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-bar .auth {
+    align-self: center;
+}
+/*------------------------------------Main Content------------------------------------------------*/
+.main-content {
+    background: url(73f51755ace506fc4d70b9db0ed24bc1.png) no-repeat , url(4ae82499b4db6a883490020ed98fda2e.png) no-repeat, url(925da60a31a11e028b499f03b11a1885.png)no-repeat;
+    background-size: cover;
+}
+.main-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.form-container {
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(86,164,191,1) 0%, rgba(49,108,147,1) 100%);
+}
+
+

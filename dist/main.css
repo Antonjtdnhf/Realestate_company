@@ -95,5 +95,32 @@
     height: 200px;
     background: linear-gradient(180deg, rgba(86,164,191,1) 0%, rgba(49,108,147,1) 100%);
 }
-
+.slider {
+    min-width: 0;
+}
+.slick-dots li button:before
+{
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    opacity: .90;
+}
+.slick-dots li.slick-active button:before {
+    color:#2C5F7F !important;
+}
+.slide-description {
+    border-top: #3686B8 solid 1px;
+    background-color: #1A425A;
+}
+.slide-description p,h2 {
+    color: white;
+}
+.slick-list{
+    box-sizing: border-box;
+    border: #F2E8E8 solid 9px;
+}
+/*----------------------------------buy_sell-rent----------------------------------------------*/
+.buy_sell-rent {
+    display: flex;
+}
 

@@ -3,10 +3,7 @@
     max-width: 1000px;
     margin: 0 auto;
 }
-.mw {
-    min-width: 1500px;
-}
-/*------------------------------------HEADER------------------------------------------------*/
+/*------------------------------HEADER------------------------------------------------*/
 .header{
     background: url("../src/assets/images/headerLayerMask.png") no-repeat  , url("../src/assets/images/Layer_1.png");
     background-size: 830px 130px  , cover ;
@@ -63,18 +60,20 @@
     margin-right: 20px;
 }
 .nav-bar .menu .menu__item {
-    padding: 0 12px 0 15px;
+}
+.nav-bar .menu .menu__item:hover {
+
 }
 .nav-bar .menu .menu__item .menu__link {
+
+    padding: 12px 15px 30px 15px;
     color: #3a5362;
     text-decoration: none;
 }
-.nav-bar .menu .menu__item .menu__link:after {
-    content: initial;
-    padding: 12px 15px 30px 15px;
-    border-top-right-radius: 10%;
-    border-top-left-radius: 10%;
-    background-color: #437798;
+.nav-bar .menu .menu__item .menu__link:hover {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: red;
     color: #ffffff;
     text-decoration: none;
 }

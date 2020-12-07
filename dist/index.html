@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <title>Realstate Company</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../slick-1.8.1/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../slick-1.8.1/slick-1.8.1/slick/slick-theme.css"/>
 <link href="main.css" rel="stylesheet"></head>
 <body>
 <!------------------------------------HEADER------------------------------------------------>
 <header class="header mw">
     <div class="wrapper header-wrapper">
         <div class="header__logo">
-            <img class="logo-img" src="/landingPage/landing/src/assets/images/logo.png">
+            <img class="logo-img" src="/Realestate_company/src/assets/images/logo.png" alt="logotype">
             <div class="logo-text">
                 <h1 class="logo-title">Realestate company</h1>
                 <span class="logo-subtitle">Lorem ipsum dolor sit amet.</span>
@@ -43,8 +46,46 @@
     <section class="main-content mw">
         <div class="main-content-wrapper wrapper">
             <div class="slider">
-                <img class="slider-placeholder"
-                     src="https://66.media.tumblr.com/1ad0c5861ab2b01ebfc65334d302a2ad/tumblr_ow4o6twG151vo4heao5_250.png">
+                <div>
+                    <img class="slider"
+                         src="/Realestate_company/src/assets/images/slide1.png">
+                    <div class="slide-description">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus qui quibusdam repellendus.</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="slider"
+                         src="/Realestate_company/src/assets/images/slide1.png">
+                    <div class="slide-description">
+                        <h2>some text</h2>
+                        <p>some text2</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="slider"
+                         src="/Realestate_company/src/assets/images/slide1.png">
+                    <div class="slide-description">
+                        <h2>some text</h2>
+                        <p>some text2</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="slider"
+                         src="/Realestate_company/src/assets/images/slide1.png">
+                    <div class="slide-description">
+                        <h2>some text</h2>
+                        <p>some text2</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="slider"
+                         src="/Realestate_company/src/assets/images/slide1.png">
+                    <div class="slide-description">
+                        <h2>some text</h2>
+                        <p>some text2</p>
+                    </div>
+                </div>
             </div>
             <div class="main_content__form_order">
                 <button>Tenants</button>
@@ -74,20 +115,17 @@
     <!------------------------------------buy_sell-rent------------------------------------------------>
     <section class="buy_sell-rent">
         <div>
-            <img src="https://i.pinimg.com/236x/96/b0/41/96b041b5160240373c6205074d734f62.jpg" width="20px"
-                 height="20px"/>
+            <img src="/Realestate_company/src/assets/images/redhat-home.png"/>
             <h2>Buy a home</h2>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorem ducimus, eos fugit ipsa libero mollitia nesciunt nulla omnis, perspiciatis quia reiciendis repellat, reprehenderit saepe sint temporibus tenetur unde vero!</span>
         </div>
         <div>
-            <img src="https://i.pinimg.com/236x/96/b0/41/96b041b5160240373c6205074d734f62.jpg" width="20px"
-                 height="20px"/>
+            <img src="/Realestate_company/src/assets/images/redhat-home.png"/>
             <h2>Sell a home</h2>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorem ducimus, eos fugit ipsa libero mollitia nesciunt nulla omnis, perspiciatis quia reiciendis repellat, reprehenderit saepe sint temporibus tenetur unde vero!</span>
         </div>
         <div>
-            <img src="https://i.pinimg.com/236x/96/b0/41/96b041b5160240373c6205074d734f62.jpg" width="20px"
-                 height="20px"/>
+            <img src="/Realestate_company/src/assets/images/redhat-home.png"/>
             <h2>Rent a home</h2>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorem ducimus, eos fugit ipsa libero mollitia nesciunt nulla omnis, perspiciatis quia reiciendis repellat, reprehenderit saepe sint temporibus tenetur unde vero!</span>
         </div>
@@ -199,9 +237,9 @@
                 </div>
             </div>
             <div class="registration-subscribe-login__social-networks">
-                <img src="/landingPage/landing/src/assets/images/facebook.png" alt="facebook">
-                <img src="/landingPage/landing/src/assets/images/twitter.png" alt="twitter">
-                <img src="/landingPage/landing/src/assets/images/google+.png" alt="google+">
+                <img src="/Realestate_company/src/assets/images/facebook.png" alt="facebook">
+                <img src="/Realestate_company/src/assets/images/twitter.png" alt="twitter">
+                <img src="/Realestate_company/src/assets/images/google+.png" alt="google+">
             </div>
         </div>
     </section>
@@ -238,5 +276,19 @@
         </div>
     </div>
 </footer>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.slider').slick({
+            dots: true,
+            adaptiveHeight: true,
+            // autoplay: true,
+            autoplaySpeed: 5000,
+            arrows : false,
+        });
+    });
+</script>
 <script src="main.js"></script></body>
 </html>

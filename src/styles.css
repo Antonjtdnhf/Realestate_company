@@ -8,7 +8,7 @@
 }
 /*------------------------------------HEADER------------------------------------------------*/
 .header{
-    background: url("../src/assets/images/headerLayerMask.png") no-repeat  , url("../src/assets/images/Layer_1.png");
+    background: url("./assets/images/headerLayerMask.png") no-repeat  , url("./assets/images/Layer_1.png");
     background-size: 830px 130px  , cover ;
     padding-bottom: 5px;
 }
@@ -83,7 +83,7 @@
 }
 /*------------------------------------Main Content------------------------------------------------*/
 .main-content {
-    background: url("../src/assets/images/mainContentMask2.png") no-repeat , url("../src/assets/images/mainContentMask1.png") no-repeat, url("../src/assets/images/mainContentBg.png")no-repeat;
+    background: url("./assets/images/mainContentMask2.png") no-repeat , url("./assets/images/mainContentMask1.png") no-repeat, url("./assets/images/mainContentBg.png")no-repeat;
     background-size: cover;
 }
 .main-content-wrapper {

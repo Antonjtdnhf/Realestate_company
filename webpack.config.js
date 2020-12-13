@@ -8,12 +8,6 @@ module.exports = {
         main: "./index.js"
     },
     mode: "development",
-    plugins: [
-        new MiniCssExtractPlugin(),
-        new HTMLWebPackPlugin({
-            template: "index.html"
-        })
-    ],
     module: {
         rules: [
             {
@@ -32,11 +26,26 @@ module.exports = {
                 ],
             },
             {
-              test: /\.png$/,
-              use: [
-                  "file-loader"
-              ]
+                test: /\.(png|jpe?g|gif|svg)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            esModule: false,
+                            outputPath: "assets/images"
+                        }
+                    }
+                ]
             },
+
         ],
     },
+    plugins: [
+        new MiniCssExtractPlugin(),
+        new HTMLWebPackPlugin({
+            filename: 'index.html',
+            template: 'index.html'}
+        )
+    ]
 };

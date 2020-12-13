@@ -8,7 +8,7 @@
 }
 /*------------------------------------HEADER------------------------------------------------*/
 .header{
-    background: url(a94592eb26b9141f85344067fa4ce346.png) no-repeat  , url(d756d67423d19a0392c322b9e5bd51a5.png);
+    background: url(assets/images/headerLayerMask.png) no-repeat  , url(assets/images/Layer_1.png);
     background-size: 830px 130px  , cover ;
     padding-bottom: 5px;
 }
@@ -83,7 +83,7 @@
 }
 /*------------------------------------Main Content------------------------------------------------*/
 .main-content {
-    background: url(73f51755ace506fc4d70b9db0ed24bc1.png) no-repeat , url(4ae82499b4db6a883490020ed98fda2e.png) no-repeat, url(925da60a31a11e028b499f03b11a1885.png)no-repeat;
+    background: url(assets/images/mainContentMask2.png) no-repeat , url(assets/images/mainContentMask1.png) no-repeat, url(assets/images/mainContentBg.png)no-repeat;
     background-size: cover;
 }
 .main-content-wrapper {
@@ -123,4 +123,6 @@
 .buy_sell-rent {
     display: flex;
 }
-
+body {
+  color: red;
+}

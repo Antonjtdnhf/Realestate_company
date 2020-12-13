@@ -86,6 +86,39 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./assets/images/facebook.png":
+/*!************************************!*\
+  !*** ./assets/images/facebook.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"assets/images/facebook.png\";\n\n//# sourceURL=webpack:///./assets/images/facebook.png?");
+
+/***/ }),
+
+/***/ "./assets/images/headerLayerMask.png":
+/*!*******************************************!*\
+  !*** ./assets/images/headerLayerMask.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"assets/images/headerLayerMask.png\";\n\n//# sourceURL=webpack:///./assets/images/headerLayerMask.png?");
+
+/***/ }),
+
+/***/ "./assets/images/logo.png":
+/*!********************************!*\
+  !*** ./assets/images/logo.png ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"assets/images/logo.png\";\n\n//# sourceURL=webpack:///./assets/images/logo.png?");
+
+/***/ }),
+
 /***/ "./index.js":
 /*!******************!*\
   !*** ./index.js ***!
@@ -94,7 +127,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./styles.css\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.scss */ \"./style.scss\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\r\nconsole.log(\"It's working!\")\n\n//# sourceURL=webpack:///./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./styles.css\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.scss */ \"./style.scss\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _assets_images_facebook_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/facebook.png */ \"./assets/images/facebook.png\");\n/* harmony import */ var _assets_images_facebook_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_facebook_png__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _assets_images_headerLayerMask_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/images/headerLayerMask.png */ \"./assets/images/headerLayerMask.png\");\n/* harmony import */ var _assets_images_headerLayerMask_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_images_headerLayerMask_png__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _assets_images_logo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/images/logo.png */ \"./assets/images/logo.png\");\n/* harmony import */ var _assets_images_logo_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_images_logo_png__WEBPACK_IMPORTED_MODULE_4__);\n\r\n\r\n/*import html from \"../dist/index.html\"*/\r\n\r\n\r\n\r\n\r\nconsole.log(\"It's working!\")\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 

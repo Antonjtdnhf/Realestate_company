@@ -1,12 +1,10 @@
 {
-  "name": "landing",
+  "name": "Realestate_company",
   "version": "1.0.0",
-  "description": "landingPage",
+  "description": "Realestate_company",
   "main": "./index.js",
   "scripts": {
-    "webpack-dev-server": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode=development"
+    "start": "webpack-dev-server --watch=true --mode development"
   },
   "author": "Anton",
   "license": "ISC",
